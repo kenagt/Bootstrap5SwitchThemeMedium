@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7iAL4ACEzwcBACCpsstDzWx0b6UauBILS2VDemnl1XsmLB9A4amK+M3wS3T0CrpRKIHCXmaPg1ajNsfuIV66jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ldg594sku\\Desktop\\Bootstrap5ThemeSwitch\\Bootstrap5SwitchTheme\\Bootstrap5SwitchTheme\\Bootstrap5SwitchTheme.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ldg594sku\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

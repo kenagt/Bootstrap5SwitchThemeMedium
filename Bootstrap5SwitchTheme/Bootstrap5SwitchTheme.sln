@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap5SwitchTheme", "Bootstrap5SwitchTheme\Bootstrap5SwitchTheme.csproj", "{8806CC60-003E-43A9-B919-D438D6FBDE59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8806CC60-003E-43A9-B919-D438D6FBDE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8806CC60-003E-43A9-B919-D438D6FBDE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8806CC60-003E-43A9-B919-D438D6FBDE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8806CC60-003E-43A9-B919-D438D6FBDE59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4AC43F2-E6A0-4FB3-8DD4-B82FE3E1A6BB}
+	EndGlobalSection
+EndGlobal

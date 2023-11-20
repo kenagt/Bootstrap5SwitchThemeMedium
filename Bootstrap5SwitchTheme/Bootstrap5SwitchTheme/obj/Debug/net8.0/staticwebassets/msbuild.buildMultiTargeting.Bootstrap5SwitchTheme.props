@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Bootstrap5SwitchTheme.props" />
+</Project>

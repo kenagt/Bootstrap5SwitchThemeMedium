@@ -1,0 +1,36 @@
+﻿@model CustomViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label class="col-form-label">Names</label>
+            <select asp-for="pk" asp-items="(SelectList)@ViewData["names"]!" class="js-example-basic-single" Style="width:100%;"></select>
+        </div>
+    </div>
+</div>
+
+﻿<div class="row">
+    <table id="customGrid" style="margin-top: 20px"></table>
+</div>
+
+<script>    
+    $(document).ready(function () {
+        $('#pk').select2({
+            theme: "bootstrap-5"
+        });
+
+        $("#customGrid").grid({
+            dataKey: "recid",
+            uiLibrary: "bootstrap4",
+            dataSource: '@Url.Action("GetFakeGridData", "Home")',
+            columns: [
+                { field: 'recid', title: 'Id', width: 10, resizable: true, align: 'left', headerCssClass: 'bg-dark-subtle' },
+                { field: 'name', title: 'Name', width: 100, resizable: true, align: 'left', headerCssClass: 'bg-dark-subtle' },
+            ],
+            pager: { enable: false }
+        });
+    });
+</script>
